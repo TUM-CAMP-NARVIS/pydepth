@@ -14,7 +14,7 @@ PYBIND11_MAKE_OPAQUE(std::vector<uint8_t>);
 
 namespace py = pybind11;
 
-PYBIND11_MODULE(_core, m)
+PYBIND11_MODULE(pyzdepth, m)
 {
 
     py::bind_vector<std::vector<uint8_t>>(m, "VectorUInt8");
